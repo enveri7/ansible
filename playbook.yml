@@ -1,0 +1,19 @@
+---
+- hosts: mybox
+  sudo: true
+
+  tasks:
+
+  - name: install php5 and apache2
+    apt: name={{ item }} update_cache=yes state=latest
+    with_items:
+      - apache2
+      - mcrypt
+      - php5-cli
+      - php5-curl
+      - php5-fpm
+      - php5-intl
+      - php5-json
+      - php5-mcrypt
+      - php5-sqlite
+      - sqlite3

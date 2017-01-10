@@ -1,0 +1,12 @@
+- name: install php5
+  apt: name={{ item }} update_cache=yes state=latest
+  with_items:
+    - mcrypt
+    - php5-cli
+    - php5-curl
+    - php5-fpm
+    - php5-intl
+    - php5-json
+    - php5-mcrypt
+    - php5-sqlite
+    - sqlite3
