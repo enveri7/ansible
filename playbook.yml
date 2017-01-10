@@ -8,3 +8,4 @@
   roles:
     - php
     - apache
+    - phpinfo
