@@ -1,5 +1,4 @@
 #Vagrantbox + ansible provisioning  
-<hr>
 
 Ubuntu 12.04 LTS (precise64)  
 Release:	12.04  
